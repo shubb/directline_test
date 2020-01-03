@@ -4,6 +4,7 @@ from app import total, app
 
 class TestApp(unittest.TestCase):
     def test_total(self):
+        
         expected_result = 50000005000000
         
         with app.app_context():
