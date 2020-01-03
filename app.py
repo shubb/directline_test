@@ -10,3 +10,6 @@ def total():
     
     total = sum(get_list_of_numbers())
     return jsonify(total=total)
+
+if __name__ == '__main__':
+      app.run(host='0.0.0.0', port=5000)
